@@ -4,6 +4,9 @@ I used:
 - popper
 - hover.css: https://ianlunn.github.io/Hover/
 - Font Awesome: https://fontawesome.com/
+- Wallpaper Access: https://wallpaperaccess.com/
+
+
 
 ## To use node__modules directory in github.io
 I created empty file `.nojekyll` on root directory.
