@@ -4,14 +4,25 @@
 }
 
 /* Hover for Works*/
+.work-div {
+}
+.work-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
 .work-body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
   text-align: center;
 }
-
-.work-body:hover {
-  opacity: 0.9;
-  background: white;
+.work-div:hover .work-image {
+  opacity: 0.3;
+}
+.work-div:hover .work-body {
+  opacity: 1;
 }
