@@ -21,14 +21,19 @@ header {
 
 /* Hover for Works*/
 .work-div {
+  height: 300px;
+  width: 300px;
 }
 .work-image {
-  opacity: 1;
-  display: block;
   width: 100%;
   height: auto;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 1;
   transition: .5s ease;
-  backface-visibility: hidden;
 }
 .work-body {
   transition: .5s ease;
@@ -37,7 +42,7 @@ header {
   text-align: center;
 }
 .work-div:hover .work-image {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 .work-div:hover .work-body {
   opacity: 1;
