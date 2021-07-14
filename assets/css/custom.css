@@ -9,6 +9,11 @@ header {
   overflow: hidden;
 }
 
+/* Navbar bkg setting */
+.navbar {
+  transition: .5s;
+}
+
 /* Vertical line */
 .vl {
   border-left: 4px solid green;
