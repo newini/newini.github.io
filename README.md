@@ -1,4 +1,5 @@
-# Eunchong Kim's Home Page
+# Eunchong Kim's Home Page [Here](http://newini.github.io/)
+
 This is list of what i used for the Home page.
 
 - [Bootstrap v5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): for basic CSS style
