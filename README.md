@@ -1,4 +1,4 @@
-# [Eunchong Kim's Home Page](http://newini.github.io/)
+# [Eunchong Kim's Home Page (link)](http://newini.github.io/)
 
 This is list of what i used for the Home page.
 
