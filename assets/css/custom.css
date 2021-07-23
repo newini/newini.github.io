@@ -9,17 +9,26 @@ header {
   overflow: hidden;
 }
 
+
 /* Navbar bkg setting */
 .navbar {
   transition: .5s;
 }
 
-/* Vertical line */
+
+/* Resume */
+.resume-title {
+  font-size: 1.3em;
+}
 .vl {
   border-left: 4px solid green;
 }
 
-/* Hover for Works*/
+
+/* Works*/
+.work-title {
+  font-size: 1.3em;
+}
 .work-div {
   height: 300px;
   width: 300px;

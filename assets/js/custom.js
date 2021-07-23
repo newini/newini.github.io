@@ -1,5 +1,5 @@
-/* Change navbar bkg color On Scroll */
-window.onscroll = function() {scrollFunction()};
+/* Change navbar bkg color on Scroll */
+window.onscroll = function() { scrollFunction() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
