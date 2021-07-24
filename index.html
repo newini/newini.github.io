@@ -36,6 +36,7 @@
         <a class="navbar-brand" href="#">
           <img src="assets/images/newini-logo.png" alt="newini-logo" width="50">
         </a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -53,6 +54,16 @@
             <li class="nav-item">
               <a class="nav-link hvr-underline-from-center" href="#contact">Contact</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Language
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="?locale=en">English</a></li>
+                <li><a class="dropdown-item" href="?locale=ja">Japanese</a></li>
+                <li><a class="dropdown-item" href="?locale=ko">Korean</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -62,7 +73,7 @@
     <article class='container py-5 my-5 text-white'>
 
       <div class='row'>
-        <h1 class='text-center'>Welcome to Eunchong C. kim's Home Page</h1>
+    <h1 id='home_message' class='text-center'>Welcome to Eunchong C. kim's Home Page</h1>
         <p class='text-center'>
           I'm Engineer, living in Tokyo, Japan.
         </p>
@@ -229,7 +240,7 @@
 
 
   <!-- Java Script ================================================== -->
-  <script src="aseets/js/popper.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/custom.js"></script>
 

@@ -13,6 +13,11 @@ header {
 /* Navbar bkg setting */
 .navbar {
   transition: .5s;
+  padding: 20px;
+}
+.navbar-scroll {
+  background: #201e27;
+  padding: 0;
 }
 
 
