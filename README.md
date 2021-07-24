@@ -12,3 +12,8 @@ This is list of what i used for the Home page.
 
 ## (Out dated) To use node__modules directory in github.io
 create empty file named `.nojekyll` on root directory. (no need now)
+
+## TODO
+- add work
+- update language
+- use webpack
