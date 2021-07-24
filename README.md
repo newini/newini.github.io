@@ -10,5 +10,5 @@ This is list of what i used for the Home page.
 
 
 
-## To use node__modules directory in github.io
-I created empty file `.nojekyll` on root directory.
+## (Out dated) To use node__modules directory in github.io
+create empty file named `.nojekyll` on root directory. (no need now)
