@@ -30,6 +30,16 @@ header {
 }
 
 
+/* Skills */
+.skills-progress-animate {
+  animation: progressBar 1.5s ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes progressBar {
+  0% { width: 0; }
+}
+
+
 /* Works*/
 .work-title {
   font-size: 1.3em;

@@ -26,9 +26,20 @@ document.getElementById('home_message').innerHTML = language[locale]['home_messa
 window.onscroll = function() { scrollFunction() };
 
 function scrollFunction() {
+  // Navbar
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("navbar").classList.add('navbar-scroll');
   } else {
     document.getElementById("navbar").classList.remove('navbar-scroll');
   }
+
+  // Skills progress bar
+  const bottom = window.pageYOffset + window.innerHeight;
+  if (bottom > document.getElementById('skills').offsetTop) {
+    const progress_arr = Array.from( document.getElementsByClassName('progress-bar') );
+    progress_arr.forEach( (progress) => {
+      progress.classList.add('skills-progress-animate');
+    });
+  }
+
 }
