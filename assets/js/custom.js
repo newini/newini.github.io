@@ -41,5 +41,20 @@ function scrollFunction() {
       progress.classList.add('skills-progress-animate');
     });
   }
-
 }
+
+// Bootstrap popper
+// But hover (mouse enter) to show and leave to hide
+window.addEventListener('DOMContentLoaded', () => {
+  const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    const popover = new bootstrap.Popover(popoverTriggerEl);
+    popoverTriggerEl.addEventListener('mouseenter', () => {
+      popover.show();
+    });
+    popoverTriggerEl.addEventListener('mouseleave', () => {
+      popover.hide();
+    });
+    return popover;
+  })
+});
