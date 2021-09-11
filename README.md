@@ -6,14 +6,13 @@ This is list of what i used for the Home page.
 - [popper](https://popper.js.org/): Bootstrap requires popper core
 - [hover.css](https://ianlunn.github.io/Hover/): for mouse-hover effects on buttons and icons
 - [Font Awesome](https://fontawesome.com): for icons
-- [Wallpaper Access](https://wallpaperaccess.com): for background image
+- [Unsplash](https://unsplash.com/): for background image
 
 
 
-## (Out dated) To use node__modules directory in github.io
+## (Out dated) To use node_modules directory in github.io
 create empty file named `.nojekyll` on root directory. (no need now)
 
 ## TODO
-- add work
 - update language
 - use webpack
